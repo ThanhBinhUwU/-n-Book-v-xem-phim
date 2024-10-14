@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Địa Chỉ Rạp Starlight</title>
+    <style>
+
+        h1 {
+            color: #ff9900; /* Màu chữ cam */
+            text-align: center; /* Căn giữa */
+        }
+
+        /* Định dạng cho tiêu đề h2 */
+        h2 {
+            background-color: #ffeb3b; /* Nền vàng */
+            padding: 10px; /* Khoảng cách bên trong */
+            text-align: center; /* Căn giữa */
+            border-radius: 5px; /* Bo góc cho nền */
+        }
+
+        /* Định dạng cho tiêu đề h3 */
+        h3 {
+            text-align: center; /* Căn giữa */
+        }
+
+        /* Định dạng cho nút Mua Vé */
+        .btn-buy {
+            display: inline-block; /* Cho phép padding và margin hoạt động */
+            padding: 10px 20px; /* Khoảng cách bên trong */
+            background-color: #ff9900; /* Màu nền cam */
+            color: white; /* Màu chữ trắng */
+            text-decoration: none; /* Bỏ gạch chân */
+            border-radius: 5px; /* Bo góc cho nút */
+            font-weight: bold; /* Chữ đậm */
+            text-align: center; /* Căn giữa chữ */
+            transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+        }
+
+            /* Hiệu ứng khi di chuột lên nút */
+            .btn-buy:hover {
+                background-color: #e68a00; /* Màu nền khi di chuột */
+            }
+
+    </style>
+    <!-- Liên kết tới tệp CSS ngoài -->
+    <link rel="stylesheet" href="path/to/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Bảng Giá Vé Rạp Pleiku Gia Lai</h1>
+    </div>
+    <div class="content">
+        <h2>BẢNG GIÁ VÉ RẠP STARLIGHT PLEIKU </h2>
+        <h3>BẢNG GIÁ COMBO BẮP NƯỚC</h3>
+        <img src="~/Scripts/gia ve gia lai pleiku.png" alt="Giá vé rạp PleiKu"/>
+        <a href="link-to-ticket-page.html" class="btn-buy">Mua Vé</a>
+    </div>
+</body>
+</html>
+
+
